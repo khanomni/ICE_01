@@ -8,9 +8,11 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  */
 public class CardTrick {
 
+    private static Object ninehearts;
     public static void main(String[] args)
     {
-
+       Card nineHearts = new Card("Hrts", 6);
+       ninehearts.setSuit("Spades");
     }
     
 }
