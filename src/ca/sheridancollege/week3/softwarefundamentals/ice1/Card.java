@@ -9,6 +9,7 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  *
  * @author Amna Khan
  * Student ID 991556455
+ * A class of Cards
  */
 public class Card {
 
