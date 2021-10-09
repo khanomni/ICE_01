@@ -11,8 +11,8 @@ public class CardTrick {
 
     public static void main(String[] args)
     {
-       Card nineHearts = new Card("Hrts", 6);
-       nineHearts.setSuit("Spades");
+       Card sixHearts = new Card("Hrts", 6);
+       sixHearts.setSuit("Spades");
     }
     
 }
