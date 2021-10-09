@@ -15,6 +15,12 @@ public class Card {
    private int value;//1-13
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
+   
+   public Card(String givenSuit, int genValue) {
+      suit = givenSuit;
+      value = givenValue;
+   }
+   
     /**
      * @return the suit
      */
@@ -26,7 +32,13 @@ public class Card {
      * @param suit the suit to set
      */
     public void setSuit(String suit) {
-        this.suit = suit;
+       if(suit.equals("Hearts") || suit.equals("Diamonds") || suit.equals("Clubs") || suit.equals("Spades")) {
+       this.suit = suit;
+    }
+       else {
+          System.out.println("The suit assigned is not valid");
+          System.out.println("Choose: Hearts, Diamonds, Spades, and Clubs");
+       }
     }
 
     /**
@@ -40,11 +52,12 @@ public class Card {
      * @param value the value to set
      */
     public void setValue(int value) {
-        this.value = value;
-    }
-   
-   
-    
+        if((value < 1) || (value > 13)) {
+           System.out.println("Value of the card has to be between 1 to 13");
+        }
+       else {
+       this.value = value;
+    }    
 }
 
 
