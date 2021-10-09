@@ -1,6 +1,7 @@
 
 package ca.sheridancollege.week3.softwarefundamentals.ice1;
 
+
 /**
  * @author Amna Khan
  * A class to create Cards
@@ -8,11 +9,10 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  */
 public class CardTrick {
 
-    private static Card ninehearts;
     public static void main(String[] args)
     {
        Card nineHearts = new Card("Hrts", 6);
-       ninehearts.setSuit("Spades");
+       nineHearts.setSuit("Spades");
     }
     
 }
