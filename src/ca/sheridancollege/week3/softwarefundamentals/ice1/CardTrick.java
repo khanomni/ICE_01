@@ -8,7 +8,7 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  */
 public class CardTrick {
 
-    private static Object ninehearts;
+    private static Card ninehearts;
     public static void main(String[] args)
     {
        Card nineHearts = new Card("Hrts", 6);
